@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+video {
+    width: 400px;
+}
+html {
+    background-color: rgb(94, 32, 32);
+    color: white;
+    text-shadow: rgb(206, 122, 122) 3px 3px 2px;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    padding: 5px;
+    border: black solid;
+    background-color: rgb(175, 84, 84);
+}
+h1 {
+    text-align: center;
+    
+}
+img {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    
+}

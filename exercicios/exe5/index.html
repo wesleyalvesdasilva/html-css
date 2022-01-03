@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html</title>
+
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/foto-m.png" type="image/png">
+        <img src="imagem/foto-g.png" alt="">
+    </picture>
+
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio</p>
+    <audio src="midia/musica-lil.mpeg" controls preload="auto" ></audio>
+    <br>
+    <audio controls preload="metadata">
+        <source src="midia/musica-lil.mpeg"  type="audio/mpag">
+        <source src="midia/musica-lil.ogg" type="audio/ogg">
+        <source src="midia/musica-lil.wav" type="audio/wav">
+        <p>inveslismente seu navegador nao consegue reproduzir o audio </p>
+    </audio>
+
+    <video src="midia/video-lil.mp4" controls ></video>
+</body>
+</html>

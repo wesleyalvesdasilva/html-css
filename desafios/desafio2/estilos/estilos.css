@@ -1,0 +1,40 @@
+html {
+    background-color: blanchedalmond;
+    padding: 5px;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    width: 600px;
+    border: black 5px solid;
+    margin: 0 auto ;
+    background-color: burlywood;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: black 3px 3px 2px;
+
+}
+
+p {
+    text-align: center;
+    color: white;
+    text-shadow: black 3px 3px 2px;
+
+}
+
+ol {
+    color: white;
+}
+h2 {
+    text-align: center;
+    color: white;
+    text-shadow: black 3px 3px 2px;
+}

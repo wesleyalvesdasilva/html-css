@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de responsividade</title>
+    <style>
+        body {
+            background-color: grey;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            
+            min-width: 280px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        header {
+            text-align: center;
+            background-color: blanchedalmond;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        nav {
+            padding: 10px;
+            background-color: pink;
+            box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.24);
+        }
+
+        nav > a {
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            transition-duration: 0.5s;
+            border-radius: 5px;
+        }
+
+        nav > a:hover {
+            background-color: yellow;
+            
+            color: black;
+        }
+        
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>testando responsividade</h1>
+        <nav>
+            <a href="#">home</a>
+            <a href="#">noticias</a>
+            <a href="#">fale com agente</a>
+        </nav>
+    </header>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam cum sunt ut! Omnis nisi minus debitis neque nemo animi velit accusamus facilis dolorum deleniti! Magnam ex ipsa earum Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas culpa veritatis aperiam, ea praesentium perspiciatis, odit nam corrupti delectus cumque esse quae fugit deleniti eum aspernatur consequuntur vitae sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam enim exercitationem repellat eum commodi nihil unde quisquam pariatur ratione, facilis atque vitae. Nihil officiis ea pariatur illum ratione saepe facilis.</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="irina Blok"></picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aperiam cum sunt ut! Omnis nisi minus debitis neque nemo animi velit accusamus facilis dolorum deleniti! Magnam ex ipsa earum Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas culpa veritatis aperiam, ea praesentium perspiciatis, odit nam corrupti delectus cumque esse quae fugit deleniti eum aspernatur consequuntur vitae sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam enim exercitationem repellat eum commodi nihil unde quisquam pariatur ratione, facilis atque vitae. Nihil officiis ea pariatur illum ratione saepe facilis.</p>
+    </main>
+    
+</body>
+</html>

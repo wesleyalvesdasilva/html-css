@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wesley</title>
+
+    <style>
+        html {
+            background-image: linear-gradient(to top, #F561D4, #B5F5F3 );
+            background-attachment: fixed;
+
+        }
+        body {
+            width: 1000px;
+            border: blue 5px solid;
+            margin: 0 auto;
+            background-color:pink;
+        }
+        video {
+            width: 500px;
+            display: block;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            font-size: 60px;
+            text-shadow: rgb(255, 12, 188) 3px 3px 2px;
+            color: hsl(187, 52%, 80%);
+            margin: 0;
+        }
+        h2 {
+            text-align: center;
+            font-size: 40px;
+            text-shadow: pink 3px 3px 2px;
+            color: powderblue;
+        }
+        p {
+            text-align: center;
+            font-size: 20px;
+            text-shadow: pink 3px 3px 2px;
+            color: powderblue;
+        }
+        iframe {
+            display: block;
+            margin: 0 auto;
+        }
+        audio {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>seja bem vindo</h1>
+    <p>essa é uma pagina de tudo o que eu aprendi</p>
+    <p><a href="pagina2.html" target="_blank" type="self" style="color: rgb(36, 0, 241);text-shadow: white 0px 0px 0px;">acesse a pagina 2</a></p>
+    <p><a href="https://www.youtube.com/" target="_blank" type="external" style="color: rgb(36, 0, 241);text-shadow: white 0px 0px 0px;" >acesse o YouTube</a></p>
+    <h2>aqui esta os tipos de videos e audio</h2>
+    <p>esse é um video que esta hospedado localmente</p>
+    <video src="midia/video-lil.mp4" controls></video>
+    <br>
+    <p>esse é um video hospedado no YouTube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TSKgjhhiD1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <p>esse é um audio hospedado localmente (nao tem como colocar o audio hospedado de outro local)</p>
+    <audio src="midia/musica-lil.mpeg" controls></audio>
+    <br>
+    <h2>listas</h2>
+    <p>agora temos as listas</p>
+    <p>
+        <ol>
+            <li>pessoas que eu adimiro</li>
+            <ul><li>elon musk</li>
+                <li>steve jobs</li>
+                <li>bill gates</li>
+                <li>Mark Zuckerberg</li>
+            </ul>
+            <li>quem sou eu?</li>
+            <ul>
+                <li>wesley alves da silva</li>
+                <li>idade: 18</li>
+                <li><address>jardim japão caucaia do alto cotia - sp</address></li>
+            </ul>
+    </ol>
+    </p>
+    <br>
+    <h2>abreviação</h2>
+    <p>passe o mause em cima das abreviação</p>
+    <p><abbr title="wesley">nome</abbr></p>
+    <p><abbr title="ser milionario">meta</abbr></p>
+    <br>
+    <h2>imagem responsiva</h2>
+    <p>essa imagem e trocada assim que voce diminuir a tela</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/foto-p.png">
+        <source media="(max-width: 1050px)" srcset="imagem/foto-m.png">
+        <img src="imagem/foto-g.png" alt="">
+    </picture>
+    <br>
+    <h2>algumas coisa de texto</h2>
+    <p>
+        <ul>
+            <li><del>deledado</del></li>
+            <li><ins>inserido</ins></li>
+            <li>&#x1F642</li>
+            <li><mark>marcado</mark></li>
+        </ul>
+    </p>
+</body>
+</html>

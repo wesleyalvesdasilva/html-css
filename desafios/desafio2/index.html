@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stark-imagem</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+    <h1>IMAGEM-STARK</h1>
+    <p>vamos ver as imagem otimozadas</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/imagem-P-roxo.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagem/imagem-m-roxo.jpg" type="image/jpg">
+        <img src="imagem/imagem-G-roxo.jpg" alt="imagem roxa">
+    </picture>
+    
+    <ol>
+        <li>sobre</li>
+        <ul>
+            <li>imagem de 1000px</li>
+            <li>imagem de 700px</li>
+            <li>imagem de 300px</li>
+        </ul>
+        <br>
+        <li>quem vez?</li>
+        <ul>
+            <li>wesley</li>
+        </ul>
+    </ol>
+    
+    <script>
+        var nome = window.prompt("seu nome?")
+        document.write (`<h2>seja bem vindo ${nome}<h2>`)
+    </script>
+    <p><a href="https://www.facebook.com/" target="_blank" rel="external">facebook</a></p>
+</body>
+</html>
